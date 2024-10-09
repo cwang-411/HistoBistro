@@ -1,4 +1,5 @@
 # HistoBistro
+article:https://www.cell.com/action/showPdf?pii=S1535-6108%2823%2900278-7
 
 Pipeline for weakly-supervised learning on histology images. The pipeline contains various models for multiple instance learning with different aggregation models. Based on Pytorch Lightning. All aggregation modules can be loaded as model files in the classifier lightning module. Loss, models, optimizers, and schedulers can be specified as strings according to the PyTorch name in the config file.
 
